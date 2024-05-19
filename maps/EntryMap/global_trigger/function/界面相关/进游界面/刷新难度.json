@@ -1,0 +1,346 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "难度索引", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "战场ID", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }, 
+                                        {
+                                            "arg_type": 100016, 
+                                            "args_list": [
+                                                "-"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "MATH_OPERATION"
+                                }, 
+                                {
+                                    "arg_type": 100016, 
+                                    "args_list": [
+                                        "*"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        5
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "MATH_OPERATION"
+                        }, 
+                        {
+                            "arg_type": 100016, 
+                            "args_list": [
+                                "+"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "MATH_OPERATION"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1975832648000269, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_PLAYER_SAVE_TABLE_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PLAYER", 
+                                "房主"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100247, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "难度索引", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1975832648000294, 
+            "enable": true, 
+            "op_arg": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                null
+            ], 
+            "op_arg_enable": [
+                false, 
+                false
+            ]
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "战场ID", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "57b382f9-39a1-4c7b-81cc-2d1ca724405f"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "战役表KEY", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "战役地图ID"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_INTEGER_TABLE_VAR_ND"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1975832648000029, 
+            "enable": true
+        }, 
+        {
+            "action_type": "IF_THEN_ELSE", 
+            "args_list": [
+                {
+                    "arg_type": 100021, 
+                    "args_list": [
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100035, 
+                                    "args_list": [
+                                        "=="
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "PLAYER", 
+                                                        "房主"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100247, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "战场ID", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "op_arg": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "初级解锁"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        true, 
+                                        false
+                                    ], 
+                                    "sub_type": "GET_PLAYER_SAVE_TABLE_VALUE_BOOLEAN"
+                                }
+                            ], 
+                            "condition_type": "BOOL_COMPARE", 
+                            "element_id": 1975832648000101, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1975832648000091, 
+            "enable": true, 
+            "fake_op": [
+                2
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_ui", 
+    "func_comment": "", 
+    "func_des": "函数描述{战役表KEY}", 
+    "func_id": "0b896191135711efa61b00ff0b798627", 
+    "func_name": "刷新难度", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "战役表KEY", 
+                true
+            ]
+        }
+    ], 
+    "group_id": 0, 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 1975832648, 
+    "trigger_name": "刷新难度", 
+    "valid": true
+}

@@ -1,0 +1,63 @@
+{
+    "action": [
+        {
+            "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+            "args_list": [
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "a8f552cf-c4d8-47fd-af3b-0c3792a1d16b"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100072, 
+                    "args_list": [
+                        28
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "打开存档界面"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 542629960000002, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": false, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "打开存档"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 542629960000001, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }
+    ], 
+    "group_id": "MPZqjxKUEe+SSVgRItHKnf", 
+    "p_trigger_id": null, 
+    "trigger_id": 542629960, 
+    "trigger_name": "新建触发器_import", 
+    "valid": true
+}

@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<Version>2</Version>
+	<SMaterialData>
+		<Root>
+			<Sub/>
+			<Entity type="SMaterialData">
+				<name/>
+				<info>
+					<Layers count="12" ordered="true">
+						<Element index="0">
+							<LayerName>com1_submat</LayerName>
+							<ShaderName>Particle</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DepthBuffer</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>ffffffff-0100-0000-0100-000047000000</Value>
+								</Element>
+								<Element index="2">
+									<Name>SSProfilesTextureGlobel</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="3">
+									<Name>ScreenTexture</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="4">
+									<Name>tIRVDayTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="5">
+									<Name>tIRVNightTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="6">
+									<Name>tScatteringAndTransmittanceVolume</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="7">
+									<Name>tShadowMapArray</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="8">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>ModulateColor</Name>
+									<Value>(1.0, 1.0, 1.0, 1.0)</Value>
+								</Element>
+								<Element index="10">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="11">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="12">
+									<Name>UVScale</Name>
+									<Value>(1, 1)</Value>
+								</Element>
+								<Element index="13">
+									<Name>Local</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="14">
+									<Name>BloomScale</Name>
+									<Value>0.5</Value>
+								</Element>
+								<Element index="15">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="16">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="17">
+									<Name>Distortion</Name>
+									<Value>0</Value>
+								</Element>
+							</Parameters>
+							<MultiPassMaterials count="0" ordered="true"/>
+						</Element>
+						<Element index="1">
+							<LayerName>d1_submat</LayerName>
+							<ShaderName>Effect/Twisted</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DepthBuffer</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>f7021142-ba26-4b86-b897-5d79a8cc268c</Value>
+								</Element>
+								<Element index="2">
+									<Name>MaskTexture</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="3">
+									<Name>SSProfilesTextureGlobel</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="4">
+									<Name>TwistTexture</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="5">
+									<Name>tIRVDayTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="6">
+									<Name>tIRVNightTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="7">
+									<Name>tScatteringAndTransmittanceVolume</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="8">
+									<Name>tShadowMapArray</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="9">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="10">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="11">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="13">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="14">
+									<Name>TwistStrength</Name>
+									<Value>(0, 0)</Value>
+								</Element>
+								<Element index="15">
+									<Name>ModulateColor</Name>
+									<Value>(4.5, 4.5, 4.5, 2)</Value>
+								</Element>
+								<Element index="16">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="17">
+									<Name>BloomScale</Name>
+									<Value>12</Value>
+								</Element>
+							</Parameters>
+							<MultiPassMaterials count="0" ordered="true"/>
+						</Element>
+						<Element index="2">
+							<LayerName>d2_submat</LayerName>
+							<ShaderName>Effect/Twisted</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DepthBuffer</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>49480fd5-86eb-4bc2-92c5-d27124941f96</Value>
+								</Element>
+								<Element index="2">
+									<Name>MaskTexture</Name>
+									<Value>d58dddb1-c50b-544a-8c8e-7ec0c3b2ecf4</Value>
+								</Element>
+								<Element index="3">
+									<Name>SSProfilesTextureGlobel</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="4">
+									<Name>TwistTexture</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="5">
+									<Name>tIRVDayTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="6">
+									<Name>tIRVNightTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="7">
+									<Name>tScatteringAndTransmittanceVolume</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="8">
+									<Name>tShadowMapArray</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="9">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="10">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="11">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="13">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="14">
+									<Name>TwistStrength</Name>
+									<Value>(0, 0)</Value>
+								</Element>
+								<Element index="15">
+									<Name>ModulateColor</Name>
+									<Value>(3.5, 3.5, 3.5, 3)</Value>
+								</Element>
+								<Element index="16">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="17">
+									<Name>BloomScale</Name>
+									<Value>12</Value>
+								</Element>
+							</Parameters>
+							<MultiPassMaterials count="0" ordered="true"/>
+						</Element>
+						<Element index="3">
+							<LayerName>d3_submat</LayerName>
+							<ShaderName>Effect/Twisted</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DepthBuffer</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>ec2bdbb8-182d-4449-b18d-9c9c0b693e4b</Value>
+								</Element>
+								<Element index="2">
+									<Name>MaskTexture</Name>
+									<Value>d2518974-d77b-40d2-acc7-e5d151edc654</Value>
+								</Element>
+								<Element index="3">
+									<Name>SSProfilesTextureGlobel</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="4">
+									<Name>TwistTexture</Name>
+									<Value>ae51a81f-de03-4f26-bed8-0fe1e23e10e7</Value>
+								</Element>
+								<Element index="5">
+									<Name>tIRVDayTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="6">
+									<Name>tIRVNightTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="7">
+									<Name>tScatteringAndTransmittanceVolume</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="8">
+									<Name>tShadowMapArray</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="9">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, 0, -1)</Value>
+								</Element>
+								<Element index="10">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="11">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>5</Value>
+								</Element>
+								<Element index="13">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="14">
+									<Name>TwistStrength</Name>
+									<Value>(0.10000000149011612, 0.10000000149011612)</Value>
+								</Element>
+								<Element index="15">
+									<Name>ModulateColor</Name>
+									<Value>(1, 1.1, 1.2, 0.8)</Value>
+								</Element>
+								<Element index="16">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(0.7, 1, 0, -0.2)</Value>
+								</Element>
+								<Element index="17">
+									<Name>BloomScale</Name>
+									<Value>1</Value>
+								</Element>
+							</Parameters>
+							<MultiPassMaterials count="0" ordered="true"/>
+						</Element>
+						<Element index="4">
+							<LayerName>d5_submat</LayerName>
+							<ShaderName>Effect/Twisted</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DepthBuffer</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>65585f63-2d96-455e-a9e0-968efdbe09db</Value>
+								</Element>
+								<Element index="2">
+									<Name>MaskTexture</Name>
+									<Value>d2518974-d77b-40d2-acc7-e5d151edc654</Value>
+								</Element>
+								<Element index="3">
+									<Name>SSProfilesTextureGlobel</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="4">
+									<Name>TwistTexture</Name>
+									<Value>6c928312-b851-5067-80c6-60c8981928c0</Value>
+								</Element>
+								<Element index="5">
+									<Name>tIRVDayTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="6">
+									<Name>tIRVNightTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="7">
+									<Name>tScatteringAndTransmittanceVolume</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="8">
+									<Name>tShadowMapArray</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="9">
+									<Name>TwistUVScolling</Name>
+									<Value>(2, 1, 1, 2)</Value>
+								</Element>
+								<Element index="10">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="11">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="13">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="14">
+									<Name>TwistStrength</Name>
+									<Value>(0, 0.2)</Value>
+								</Element>
+								<Element index="15">
+									<Name>ModulateColor</Name>
+									<Value>(3, 3, 3, 0.3)</Value>
+								</Element>
+								<Element index="16">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(0.68, 0.7, 0, 0)</Value>
+								</Element>
+								<Element index="17">
+									<Name>BloomScale</Name>
+									<Value>0.5</Value>
+								</Element>
+							</Parameters>
+							<MultiPassMaterials count="0" ordered="true"/>
+						</Element>
+						<Element index="5">
+							<LayerName>d6_submat</LayerName>
+							<ShaderName>Effect/Twisted</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DepthBuffer</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>788c67eb-41fc-44d8-8c05-bef1535b6330</Value>
+								</Element>
+								<Element index="2">
+									<Name>MaskTexture</Name>
+									<Value>d6fa011e-ce54-4c2c-a4e4-16eeac951392</Value>
+								</Element>
+								<Element index="3">
+									<Name>SSProfilesTextureGlobel</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="4">
+									<Name>TwistTexture</Name>
+									<Value>211d8b75-f572-41aa-b179-e04499ed02c1</Value>
+								</Element>
+								<Element index="5">
+									<Name>tIRVDayTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="6">
+									<Name>tIRVNightTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="7">
+									<Name>tScatteringAndTransmittanceVolume</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="8">
+									<Name>tShadowMapArray</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="9">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, -2, 0.2)</Value>
+								</Element>
+								<Element index="10">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="11">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="13">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="14">
+									<Name>TwistStrength</Name>
+									<Value>(0.2, 0.2)</Value>
+								</Element>
+								<Element index="15">
+									<Name>ModulateColor</Name>
+									<Value>(1, 1, 1, 8)</Value>
+								</Element>
+								<Element index="16">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="17">
+									<Name>BloomScale</Name>
+									<Value>0.5</Value>
+								</Element>
+							</Parameters>
+							<MultiPassMaterials count="0" ordered="true"/>
+						</Element>
+						<Element index="6">
+							<LayerName>c1_submat</LayerName>
+							<ShaderName>Effect/Twisted</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DepthBuffer</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>5174ca1d-bba6-468b-929f-85956146f1fd</Value>
+								</Element>
+								<Element index="2">
+									<Name>MaskTexture</Name>
+									<Value>893fc927-a255-4e38-80f5-403513371a2d</Value>
+								</Element>
+								<Element index="3">
+									<Name>SSProfilesTextureGlobel</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="4">
+									<Name>TwistTexture</Name>
+									<Value>71ef61ef-81bd-4217-899d-27d87c141703</Value>
+								</Element>
+								<Element index="5">
+									<Name>tIRVDayTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="6">
+									<Name>tIRVNightTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="7">
+									<Name>tScatteringAndTransmittanceVolume</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="8">
+									<Name>tShadowMapArray</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="9">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 2, 0, 0)</Value>
+								</Element>
+								<Element index="10">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="11">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>1.2</Value>
+								</Element>
+								<Element index="13">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="14">
+									<Name>TwistStrength</Name>
+									<Value>(0.10000000149011612, 0.10000000149011612)</Value>
+								</Element>
+								<Element index="15">
+									<Name>ModulateColor</Name>
+									<Value>(1.2, 1, 1, 4.5)</Value>
+								</Element>
+								<Element index="16">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="17">
+									<Name>BloomScale</Name>
+									<Value>0.5</Value>
+								</Element>
+							</Parameters>
+							<MultiPassMaterials count="0" ordered="true"/>
+						</Element>
+						<Element index="7">
+							<LayerName>c2_submat</LayerName>
+							<ShaderName>Effect/Twisted</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DepthBuffer</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>8c0cf4f3-54cb-44ad-8fdb-39c0a740a8e5</Value>
+								</Element>
+								<Element index="2">
+									<Name>MaskTexture</Name>
+									<Value>6e23cbb6-3640-4f5b-8514-0f145cc3c9e4</Value>
+								</Element>
+								<Element index="3">
+									<Name>SSProfilesTextureGlobel</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="4">
+									<Name>TwistTexture</Name>
+									<Value>926a9301-a8ec-4e2b-bdef-cd2cc2cc7a8a</Value>
+								</Element>
+								<Element index="5">
+									<Name>tIRVDayTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="6">
+									<Name>tIRVNightTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="7">
+									<Name>tScatteringAndTransmittanceVolume</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="8">
+									<Name>tShadowMapArray</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="9">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 2, -0.65, 0)</Value>
+								</Element>
+								<Element index="10">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="11">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>5</Value>
+								</Element>
+								<Element index="13">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="14">
+									<Name>TwistStrength</Name>
+									<Value>(0.10000000149011612, 0.10000000149011612)</Value>
+								</Element>
+								<Element index="15">
+									<Name>ModulateColor</Name>
+									<Value>(0.7, 0.7, 0.7, 5)</Value>
+								</Element>
+								<Element index="16">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1.5, -0.5, 1)</Value>
+								</Element>
+								<Element index="17">
+									<Name>BloomScale</Name>
+									<Value>0.5</Value>
+								</Element>
+							</Parameters>
+							<MultiPassMaterials count="0" ordered="true"/>
+						</Element>
+						<Element index="8">
+							<LayerName>c3_submat</LayerName>
+							<ShaderName>Particle</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DepthBuffer</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>f1ffd64d-a8f0-5c7d-8af4-4553a9405042</Value>
+								</Element>
+								<Element index="2">
+									<Name>SSProfilesTextureGlobel</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="3">
+									<Name>ScreenTexture</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="4">
+									<Name>tIRVDayTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="5">
+									<Name>tIRVNightTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="6">
+									<Name>tScatteringAndTransmittanceVolume</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="7">
+									<Name>tShadowMapArray</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="8">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>ModulateColor</Name>
+									<Value>(4, 4, 4, 0.5)</Value>
+								</Element>
+								<Element index="10">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="11">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="12">
+									<Name>UVScale</Name>
+									<Value>(1, 1)</Value>
+								</Element>
+								<Element index="13">
+									<Name>Local</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="14">
+									<Name>BloomScale</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="15">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="16">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="17">
+									<Name>Distortion</Name>
+									<Value>0</Value>
+								</Element>
+							</Parameters>
+							<MultiPassMaterials count="0" ordered="true"/>
+						</Element>
+						<Element index="9">
+							<LayerName>c4_submat</LayerName>
+							<ShaderName>Particle</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DepthBuffer</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>6a833f5a-c700-50c7-ba94-fc89eebd10de</Value>
+								</Element>
+								<Element index="2">
+									<Name>SSProfilesTextureGlobel</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="3">
+									<Name>ScreenTexture</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="4">
+									<Name>tIRVDayTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="5">
+									<Name>tIRVNightTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="6">
+									<Name>tScatteringAndTransmittanceVolume</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="7">
+									<Name>tShadowMapArray</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="8">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>ModulateColor</Name>
+									<Value>(1, 1, 1, 0.04)</Value>
+								</Element>
+								<Element index="10">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="11">
+									<Name>HDRScale</Name>
+									<Value>5</Value>
+								</Element>
+								<Element index="12">
+									<Name>UVScale</Name>
+									<Value>(1, 1)</Value>
+								</Element>
+								<Element index="13">
+									<Name>Local</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="14">
+									<Name>BloomScale</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="15">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="16">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="17">
+									<Name>Distortion</Name>
+									<Value>0</Value>
+								</Element>
+							</Parameters>
+							<MultiPassMaterials count="0" ordered="true"/>
+						</Element>
+						<Element index="10">
+							<LayerName>c5_submat</LayerName>
+							<ShaderName>Effect/Twisted</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DepthBuffer</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>de03cbef-3c81-4eba-9ede-219225e1076a</Value>
+								</Element>
+								<Element index="2">
+									<Name>MaskTexture</Name>
+									<Value>b235a8ee-7359-42e5-a235-4d04cd4eec17</Value>
+								</Element>
+								<Element index="3">
+									<Name>SSProfilesTextureGlobel</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="4">
+									<Name>TwistTexture</Name>
+									<Value>211d8b75-f572-41aa-b179-e04499ed02c1</Value>
+								</Element>
+								<Element index="5">
+									<Name>tIRVDayTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="6">
+									<Name>tIRVNightTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="7">
+									<Name>tScatteringAndTransmittanceVolume</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="8">
+									<Name>tShadowMapArray</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="9">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, -2, 0.2)</Value>
+								</Element>
+								<Element index="10">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="11">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="13">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="14">
+									<Name>TwistStrength</Name>
+									<Value>(0.1, 0.1)</Value>
+								</Element>
+								<Element index="15">
+									<Name>ModulateColor</Name>
+									<Value>(1.6, 1.6, 1.6, 4.5)</Value>
+								</Element>
+								<Element index="16">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 0.7, 0, 0)</Value>
+								</Element>
+								<Element index="17">
+									<Name>BloomScale</Name>
+									<Value>0.5</Value>
+								</Element>
+							</Parameters>
+							<MultiPassMaterials count="0" ordered="true"/>
+						</Element>
+						<Element index="11">
+							<LayerName>n1_submat</LayerName>
+							<ShaderName>Particle</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DepthBuffer</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>80c5026f-dd56-4047-aaf4-12c621a86665</Value>
+								</Element>
+								<Element index="2">
+									<Name>SSProfilesTextureGlobel</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="3">
+									<Name>ScreenTexture</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="4">
+									<Name>tIRVDayTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="5">
+									<Name>tIRVNightTextureA</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="6">
+									<Name>tScatteringAndTransmittanceVolume</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="7">
+									<Name>tShadowMapArray</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="8">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>ModulateColor</Name>
+									<Value>(1, 1, 1, 5)</Value>
+								</Element>
+								<Element index="10">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="11">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="12">
+									<Name>UVScale</Name>
+									<Value>(1, 1)</Value>
+								</Element>
+								<Element index="13">
+									<Name>Local</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="14">
+									<Name>BloomScale</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="15">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="16">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="17">
+									<Name>Distortion</Name>
+									<Value>true</Value>
+								</Element>
+							</Parameters>
+							<MultiPassMaterials count="0" ordered="true"/>
+						</Element>
+					</Layers>
+				</info>
+				<flags count="12" ordered="true">
+					<Element index="0">1048624</Element>
+					<Element index="1">1048624</Element>
+					<Element index="2">1048624</Element>
+					<Element index="3">1048624</Element>
+					<Element index="4">48</Element>
+					<Element index="5">48</Element>
+					<Element index="6">1048624</Element>
+					<Element index="7">1048624</Element>
+					<Element index="8">1048624</Element>
+					<Element index="9">1048624</Element>
+					<Element index="10">48</Element>
+					<Element index="11">1048624</Element>
+				</flags>
+				<customRenderset count="12" ordered="true">
+					<Element index="0">0</Element>
+					<Element index="1">0</Element>
+					<Element index="2">0</Element>
+					<Element index="3">0</Element>
+					<Element index="4">0</Element>
+					<Element index="5">0</Element>
+					<Element index="6">0</Element>
+					<Element index="7">0</Element>
+					<Element index="8">0</Element>
+					<Element index="9">0</Element>
+					<Element index="10">0</Element>
+					<Element index="11">0</Element>
+				</customRenderset>
+			</Entity>
+		</Root>
+	</SMaterialData>
+</Resource>

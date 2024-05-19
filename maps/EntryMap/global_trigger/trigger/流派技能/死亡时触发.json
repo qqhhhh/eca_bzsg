@@ -1,0 +1,289 @@
+{
+    "action": [
+        [
+            1839159015, 
+            "信仰之光", 
+            1194065947, 
+            "action_type"
+        ], 
+        {
+            "action_type": "IF_THEN_ELSE", 
+            "args_list": [
+                {
+                    "arg_type": 100021, 
+                    "args_list": [
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_UNIT_FROM_EVENT"
+                                        }, 
+                                        {
+                                            "arg_type": 100182, 
+                                            "args_list": [
+                                                0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100039, 
+                                            "args_list": [
+                                                530002
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_ABILITY_BY_AID"
+                                }
+                            ], 
+                            "condition_type": "TYPE_IS_EXIST", 
+                            "element_id": 1194065947000003, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ABILITY", 
+                                                "skill", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_UNIT_FROM_EVENT"
+                                        }, 
+                                        {
+                                            "arg_type": 100182, 
+                                            "args_list": [
+                                                0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100039, 
+                                            "args_list": [
+                                                530002
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_ABILITY_BY_AID"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1194065947000004, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "ADD_MODIFIER", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "GET_UNIT_FROM_EVENT"
+                                }, 
+                                {
+                                    "arg_type": 100046, 
+                                    "args_list": [
+                                        134224494
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1194065947000005, 
+                            "enable": true, 
+                            "op_arg": [
+                                null, 
+                                null, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                null, 
+                                null, 
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false, 
+                                true, 
+                                false, 
+                                false, 
+                                false
+                            ]
+                        }, 
+                        {
+                            "action_type": "REVIVE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "KILLED_UNIT"
+                                }, 
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "KILLED_UNIT"
+                                        }
+                                    ], 
+                                    "sub_type": "UNIT_ENTITY_POINT"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1194065947000006, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_CUR_HP", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "KILLED_UNIT"
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "KILLED_UNIT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100301, 
+                                                            "args_list": [
+                                                                "ATTR_BASE"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100042, 
+                                                            "args_list": [
+                                                                "hp_max"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_UNIT_ATTR"
+                                                }
+                                            ], 
+                                            "sub_type": "F2I"
+                                        }, 
+                                        {
+                                            "arg_type": 100016, 
+                                            "args_list": [
+                                                "/"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                2
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "MATH_OPERATION"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1194065947000007, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1194065947000008, 
+            "enable": true, 
+            "fake_op": []
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [], 
+                    "sub_type": "GET_UNIT_FROM_EVENT"
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "英雄"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "UNIT_HAS_TAG", 
+            "element_id": 1194065947000002, 
+            "enable": true
+        }
+    ], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100008, 
+                    "args_list": [
+                        "ET_UNIT_DIE"
+                    ], 
+                    "sub_type": "GENERIC_UNIT_EVENT"
+                }
+            ], 
+            "element_id": 1194065947000001, 
+            "enable": true, 
+            "event_type": "GENERIC_UNIT_EVENT"
+        }
+    ], 
+    "group_id": "60EC0QtFEe+KiLBuv8Jnm2", 
+    "p_trigger_id": null, 
+    "trigger_id": 1194065947, 
+    "trigger_name": "死亡时触发", 
+    "valid": true
+}

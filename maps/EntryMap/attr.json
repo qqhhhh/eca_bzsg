@@ -1,0 +1,268 @@
+{
+    "b": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "hp_rec", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u751f\u547d\u6062\u590d", 
+                    "maximun": 70000000000000, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "mp_rec", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u6280\u80fd\u8d44\u6e90\u6062\u590d", 
+                    "maximun": 70000000000000, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "attack_mag", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u6cd5\u672f\u653b\u51fb\u529b", 
+                    "maximun": 70000000000000, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "defense_phy", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u7269\u7406\u9632\u5fa1\u529b", 
+                    "maximun": 100.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "defense_mag", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u6cd5\u672f\u9632\u5fa1\u529b", 
+                    "maximun": 100.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "hit_rate", 
+                {
+                    "default": 100.0, 
+                    "desc": "\u547d\u4e2d\u7387(%)", 
+                    "maximun": 1000.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "dodge_rate", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u8eb2\u907f\u7387(%)", 
+                    "maximun": 1000.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "critical_chance", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u66b4\u51fb\u7387(%)", 
+                    "maximun": 100.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "pene_phy", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u7269\u7406\u7a7f\u900f", 
+                    "maximun": 0.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "pene_mag", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u6cd5\u672f\u7a7f\u900f", 
+                    "maximun": 0.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "vampire_phy", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u7269\u7406\u5438\u8840(%)", 
+                    "maximun": 200.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "vampire_mag", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u6cd5\u672f\u5438\u8840(%)", 
+                    "maximun": 0.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "pene_phy_ratio", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u7269\u7406\u7a7f\u900f(%)", 
+                    "maximun": 0.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "pene_mag_ratio", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u6cd5\u672f\u7a7f\u900f(%)", 
+                    "maximun": 0.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "dmg_reduction", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u4f24\u5bb3\u51cf\u514d(%)", 
+                    "maximun": 100.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "extra_dmg", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u6240\u6709\u4f24\u5bb3\u52a0\u6210(%)", 
+                    "maximun": 70000000000000, 
+                    "minimun": -100.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "healing_effect", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u88ab\u6cbb\u7597\u6548\u679c\u52a0\u6210(%)", 
+                    "maximun": 70000000000000, 
+                    "minimun": -100.0
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "ori_speed", 
+                {
+                    "default": 3.0, 
+                    "desc": "\u79fb\u52a8\u901f\u5ea6", 
+                    "maximun": 700000000000, 
+                    "minimun": 0.0
+                }
+            ]
+        }
+    ], 
+    "c": [], 
+    "p": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "strength", 
+                {
+                    "d": "\u529b\u91cf", 
+                    "k": "strength", 
+                    "m": []
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "agility", 
+                {
+                    "d": "\u654f\u6377", 
+                    "k": "agility", 
+                    "m": []
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "intelligence", 
+                {
+                    "d": "\u667a\u529b", 
+                    "k": "intelligence", 
+                    "m": []
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "main", 
+                {
+                    "d": "\u4e3b\u5c5e\u6027", 
+                    "k": "main", 
+                    "m": []
+                }
+            ]
+        }
+    ], 
+    "ps": 1
+}

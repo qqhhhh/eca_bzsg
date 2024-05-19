@@ -1,0 +1,153 @@
+{
+    "adapt_mode": 2, 
+    "anim_data": {}, 
+    "children": [
+        {
+            "children": [], 
+            "event_list": [
+                {
+                    "action_list": [
+                        {
+                            "anim_duration": 1.0, 
+                            "anim_id": null, 
+                            "anim_type": 0, 
+                            "comp": "54182739-d294-4dbd-9d3e-6800c3becd7d", 
+                            "ease_type": 0, 
+                            "name": "Show_5", 
+                            "open_timeline": true, 
+                            "type": 2
+                        }
+                    ], 
+                    "enabled": true, 
+                    "name": "setting_btn_0", 
+                    "sound_id": null, 
+                    "type": 1
+                }
+            ], 
+            "name": "setting_btn", 
+            "normal_picture": 134250419, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    124.0, 
+                    978.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    6.4583, 
+                    90.5556
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scale": {
+                "__tuple__": true, 
+                "items": [
+                    0.9, 
+                    0.9
+                ]
+            }, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    71.0, 
+                    73.0
+                ]
+            }, 
+            "swallow_touches": true, 
+            "type": 1, 
+            "uid": "4dd8ae57-0c79-4ab4-9d24-04c80b8f39de"
+        }, 
+        {
+            "children": [], 
+            "event_list": [], 
+            "name": "setting_panel", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    951.0, 
+                    572.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    49.5313, 
+                    52.963
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "swallow_touches": true, 
+            "type": 27, 
+            "uid": "54182739-d294-4dbd-9d3e-6800c3becd7d", 
+            "visible": false
+        }, 
+        {
+            "children": [], 
+            "event_list": [
+                {
+                    "action_list": [
+                        {
+                            "anim_duration": 1.0, 
+                            "anim_id": null, 
+                            "anim_type": 0, 
+                            "comp": "a06c0e95-daa5-4976-9d46-d3e9ebd1db0f", 
+                            "ease_type": 0, 
+                            "name": "BackToHall_1", 
+                            "open_timeline": true, 
+                            "type": 5
+                        }
+                    ], 
+                    "enabled": true, 
+                    "name": "exit_btn_0", 
+                    "sound_id": null, 
+                    "type": 1
+                }
+            ], 
+            "name": "exit_btn", 
+            "normal_picture": 134233654, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    191.0, 
+                    978.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    9.9479, 
+                    90.5556
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scale": {
+                "__tuple__": true, 
+                "items": [
+                    0.9, 
+                    0.9
+                ]
+            }, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    71.0, 
+                    73.0
+                ]
+            }, 
+            "type": 1, 
+            "uid": "a06c0e95-daa5-4976-9d46-d3e9ebd1db0f"
+        }
+    ], 
+    "name": "GameHUD", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "ba9bec29-6a9d-47f3-a343-e4fe081e58dc", 
+    "visible": true, 
+    "zorder": 400
+}

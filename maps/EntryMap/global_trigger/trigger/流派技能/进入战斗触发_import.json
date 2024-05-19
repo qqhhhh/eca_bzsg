@@ -1,0 +1,211 @@
+{
+    "action": [
+        [
+            1338789486, 
+            "召唤护卫", 
+            2119688254, 
+            "action_type"
+        ], 
+        {
+            "action_type": "ITER_ABILITY_DO", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [], 
+                    "sub_type": "GET_UNIT_FROM_EVENT"
+                }, 
+                {
+                    "arg_type": 100182, 
+                    "args_list": [
+                        0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "IF_THEN_ELSE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100021, 
+                                    "args_list": [
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100014, 
+                                                    "args_list": [], 
+                                                    "sub_type": "FOR_EACH_SELECTED_ABILITY"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "护卫"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "condition_type": "ABILITY_HAS_TAG", 
+                                            "element_id": 2119688254000003, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "IF_THEN_ELSE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100021, 
+                                                    "args_list": [
+                                                        {
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100021, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100006, 
+                                                                                    "args_list": [], 
+                                                                                    "sub_type": "GET_UNIT_FROM_EVENT"
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100003, 
+                                                                                    "args_list": [
+                                                                                        "有护卫"
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }
+                                                                            ], 
+                                                                            "condition_type": "UNIT_HAS_TAG", 
+                                                                            "element_id": 2119688254000004, 
+                                                                            "enable": true
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "condition_type": "NOT", 
+                                                            "element_id": 2119688254000005, 
+                                                            "enable": true
+                                                        }
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100022, 
+                                                    "args_list": [
+                                                        {
+                                                            "action_type": "CALL_TRIGGER_FUNC", 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100177, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "GET_UNIT_FROM_EVENT"
+                                                                        }
+                                                                    ], 
+                                                                    "op_arg": [], 
+                                                                    "op_arg_enable": [], 
+                                                                    "sub_type": "9d418280092911efb8b918c04d19a765"
+                                                                }
+                                                            ], 
+                                                            "bp": false, 
+                                                            "call_rt_arg_idxes": [], 
+                                                            "element_id": 2119688254000006, 
+                                                            "enable": true
+                                                        }
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100022, 
+                                                    "args_list": [], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 2119688254000007, 
+                                            "enable": true, 
+                                            "fake_op": []
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 2119688254000008, 
+                            "enable": true, 
+                            "fake_op": []
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2119688254000009, 
+            "enable": true
+        }, 
+        [
+            2038147516, 
+            "双子护卫", 
+            2119688254, 
+            "action_type"
+        ]
+    ], 
+    "call_enabled": true, 
+    "condition": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [], 
+                    "sub_type": "GET_UNIT_FROM_EVENT"
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "英雄"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "UNIT_HAS_TAG", 
+            "element_id": 2119688254000002, 
+            "enable": true
+        }
+    ], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100008, 
+                    "args_list": [
+                        "ET_UNIT_ENTER_BATTLE"
+                    ], 
+                    "sub_type": "GENERIC_UNIT_EVENT"
+                }
+            ], 
+            "element_id": 2119688254000001, 
+            "enable": true, 
+            "event_type": "GENERIC_UNIT_EVENT"
+        }
+    ], 
+    "group_id": "MPULABKUEe+nSVgRItHKnZ", 
+    "p_trigger_id": null, 
+    "trigger_id": 2119688254, 
+    "trigger_name": "进入战斗触发_import", 
+    "valid": true
+}

@@ -1,0 +1,282 @@
+{
+    "local_variable": {}, 
+    "trigger_dict": {
+        "253403137": {
+            "action": [
+                {
+                    "action_type": "ADD_ATTR", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100300, 
+                            "args_list": [
+                                "ATTR_ALL_RATIO"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100042, 
+                            "args_list": [
+                                "hp_max"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "lv"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100014, 
+                                                            "args_list": [], 
+                                                            "sub_type": "CUR_ABILITY"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100079, 
+                                                            "args_list": [
+                                                                "ability_level"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_ABILITY_INT_ATTR"
+                                                }
+                                            ], 
+                                            "sub_type": "ANY_VAR_TO_STR"
+                                        }
+                                    ], 
+                                    "op_arg": [
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false
+                                    ], 
+                                    "sub_type": "STR_JOIN"
+                                }
+                            ], 
+                            "sub_type": "GET_INTEGER_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 253403137000002, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 253403137000001, 
+                    "enable": true, 
+                    "event_type": "ABILITY_OBTAIN"
+                }
+            ], 
+            "group_id": 520003, 
+            "p_trigger_id": null, 
+            "trigger_id": 253403137, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }, 
+        "471535618": {
+            "action": [
+                {
+                    "action_type": "ADD_ATTR", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100300, 
+                            "args_list": [
+                                "ATTR_ALL_RATIO"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100042, 
+                            "args_list": [
+                                "hp_max"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100016, 
+                                    "args_list": [
+                                        "-"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100014, 
+                                            "args_list": [], 
+                                            "sub_type": "CUR_ABILITY"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "lv"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100014, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "CUR_ABILITY"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100079, 
+                                                                    "args_list": [
+                                                                        "ability_level"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ABILITY_INT_ATTR"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_INTEGER_KV"
+                                }
+                            ], 
+                            "sub_type": "MATH_OPERATION"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 471535618000002, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 471535618000001, 
+                    "enable": true, 
+                    "event_type": "ABILITY_LOSE"
+                }
+            ], 
+            "group_id": 520003, 
+            "p_trigger_id": null, 
+            "trigger_id": 471535618, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_2", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        471535618, 
+                        "\u65b0\u5efa\u89e6\u53d1\u5668_2"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        253403137, 
+                        "\u65b0\u5efa\u89e6\u53d1\u5668"
+                    ]
+                }
+            ], 
+            "key": 520003, 
+            "name": "520003"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}
